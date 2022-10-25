@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\libraries\CleanArchitecture.Infrastucture\CleanArchitecture.Infrastucture.csproj" />
+    <ProjectReference Include="..\libraries\CleanArchitecture.IoC\CleanArchitecture.IoC.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,6 @@
 
 using CleanArchitecture.Infrastucture.Context;
+using CleanArchitecture.IoC;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,6 +21,8 @@ namespace CleanArchitecture.Presentation.Mvc
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
+
+            builder.Services.ResgisterService();
 
             var app = builder.Build();
 
