@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CleanArchitecture.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,6 @@ namespace CleanArchitecture.Application.Vm
 {
     public class CourseVm
     {
-        public long Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
+       public IEnumerable<Course> Courses { get; set; }   
     }
 }
