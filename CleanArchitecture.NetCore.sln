@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Presentat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Application", "libraries\CleanArchitecture.Application\CleanArchitecture.Application.csproj", "{9179B942-F887-4BF8-B4B8-98F263347901}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.IoC", "libraries\CleanArchitecture.IoC\CleanArchitecture.IoC.csproj", "{2127BD4B-5A37-41B6-BB64-933E182F6422}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{9179B942-F887-4BF8-B4B8-98F263347901}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9179B942-F887-4BF8-B4B8-98F263347901}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9179B942-F887-4BF8-B4B8-98F263347901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2127BD4B-5A37-41B6-BB64-933E182F6422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2127BD4B-5A37-41B6-BB64-933E182F6422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2127BD4B-5A37-41B6-BB64-933E182F6422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2127BD4B-5A37-41B6-BB64-933E182F6422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{BE176F3D-965D-4088-A172-A757EF2FF293} = {7B315C5D-67CA-4613-A76C-C28DEAF95301}
 		{BD0D2F6F-6E11-4347-A40B-4087F1A06CED} = {06D14289-7AB2-40C6-92B5-E34D7BD3FDFF}
 		{9179B942-F887-4BF8-B4B8-98F263347901} = {7B315C5D-67CA-4613-A76C-C28DEAF95301}
+		{2127BD4B-5A37-41B6-BB64-933E182F6422} = {7B315C5D-67CA-4613-A76C-C28DEAF95301}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5B07996-6F8A-4818-9D03-458AE5772A8B}
